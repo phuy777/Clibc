@@ -15,3 +15,11 @@ size_t strnlen(const char *src, size_t maxlen) {
   }
   return len;
 }
+char *strcpy(char *dest, const char *src) {
+  char *og_dest = dest;
+  while ((*dest = *src) != '\0') {
+    dest++;
+    src++;
+  }
+  return dest;
+}

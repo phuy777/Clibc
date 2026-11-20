@@ -4,5 +4,5 @@
 
 size_t strlen(const char *src);
 size_t strnlen(const char *src, size_t maxlen);
-
+char *strcpy(char *dest, const char *src);
 #endif
