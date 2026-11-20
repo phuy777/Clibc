@@ -21,5 +21,5 @@ char *strcpy(char *dest, const char *src) {
     dest++;
     src++;
   }
-  return dest;
+  return og_dest;
 }
