@@ -23,3 +23,17 @@ char *strcpy(char *dest, const char *src) {
   }
   return og_dest;
 }
+char *strncat(char *dest, const char *src, size_t n) {
+  char *ptr = dest;
+  while (*ptr != '\0') {
+    ptr++;
+  }
+  while (n < 0 && *src != '\0') {
+    *ptr = *src;
+    ptr++;
+    src++;
+    n--;
+  }
+  *ptr = '\0';
+  return 0;
+}

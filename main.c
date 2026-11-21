@@ -9,4 +9,6 @@ int main(void) {
   printf("%zu\n", strnlen(string, 4));
   strcpy(dest, str);
   printf("%s\n", dest);
+  strncat(dest, string, 3);
+  printf("%s\n", dest);
 }
