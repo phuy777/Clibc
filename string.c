@@ -1,5 +1,5 @@
+#include "stddef.h"
 #include "string.h"
-#include <stddef.h>
 
 size_t strlen(const char *src) {
   size_t len = 0;
