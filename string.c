@@ -35,5 +35,5 @@ char *strncat(char *dest, const char *src, size_t n) {
     n--;
   }
   *ptr = '\0';
-  return 0;
+  return dest;
 }
