@@ -9,7 +9,7 @@ char *strncpy(char *dest, const char *src, size_t n) {
     n--;
   }
   while (n > 0) {
-    *dest = '\0';
+    *dest++ = '\0';
     n--;
   }
   return og_dest;
