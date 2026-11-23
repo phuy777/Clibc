@@ -2,5 +2,7 @@ CompileFlags:
   Add:
     - -ffreestanding
     - -nostdinc
-    - -I/home/phuy/Clibc/include
     - -fno-builtin
+    - -Iinclude
+    - -I../include
+    - -I../../include
