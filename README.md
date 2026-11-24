@@ -46,9 +46,6 @@ Current development and testing environment:
 
 - **Operating System:** Linux
 - **Compiler:** GCC
-- **External C Library:** glibc
-
-glibc is currently used by the development and testing environment to support the test program (`main.c`).
 
 Clibc is not yet fully independent and still relies on the host system's libc for parts of its current testing workflow.
 
