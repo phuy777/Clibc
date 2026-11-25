@@ -1,8 +1,0 @@
-CompileFlags:
-  Add:
-    - -ffreestanding
-    - -nostdinc
-    - -fno-builtin
-    - -Iinclude
-    - -I../include
-    - -I../../include
